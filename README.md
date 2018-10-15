@@ -6,6 +6,12 @@ Night Owl CLI - a stub folder structure for Python 3 CLIs
 
 This is a bare-bones CLI skeleton inspired by (totally ripped off from) a post titled "[The easy (and nice) way to do CLI apps in Python][easy-way-to-do-cli]" by Thomas Stringer with some testing bits snaked from [Python Unit Testing – Structuring Your Project][unit-testing].
 
+## why?
+
+I write a lot of these and invariably forget some detail or best practice that I swore I'd totally always remember that I then promptly forgot. My favorite form of procrastination is two hour squirrel adventures searching for the "right way" to do things so for my future self... "ha, get back to work arsehole, we've already been down this rabbit hole."
+
+The more I code the more I become a fan of opinioned languages, frameworks and software free of all the wishy washy "you can put it here, or here, or here" which is all fine and dandy for the long time disciples but when just starting out nothings more frustrating than multiple options with no direction.
+
 ### in the box
 
 - Python 3
@@ -18,8 +24,8 @@ This is a bare-bones CLI skeleton inspired by (totally ripped off from) a post t
 ```
 nightowlcli/
 ├── README.md           # what it is, include lots of examples, fewer words
-├── install.bat         # lazy script to pip3 install (because Windows)
-├── install.sh          # lazy script to pip3 install (because Linux/Mac)
+├── install.bat         # debug script to run pip3 install -e . (because Windows)
+├── install.sh          # debug script to run pip3 install -e . (because Linux)
 ├── LICENSE             # license your stuff
 ├── nightowlcli         # the guts
   ├── __init__.py       # empty, tells Python the folder is a module
@@ -30,12 +36,6 @@ nightowlcli/
   └── test_funky.py     # tests for funky
 └── setup.py            # needed to install the cli
 ```
-
-## why?
-
-I write a lot of these and invariably forget some detail or best practice that I swore I'd totally always remember that I then promptly forgot. My favorite form of procrastination is two hour squirrel adventures searching for the "right way" to do things so for my future self... "ha, get back to work arsehole, we've already been down this rabbit hole."
-
-The more I code the more I become a fan of opinioned languages, frameworks and software free of all the wishy washy "you can put it here, or here, or here" which is all fine and dandy for the long time disciples but when just starting out nothings more frustrating than multiple options with no direction.
 
 ## how?
 
@@ -59,6 +59,12 @@ Then
 
 ```
 nightowlcli -h
+```
+
+Check that the test framework is working correctly before you go mucking it up and trying to blame me for your crap typing. Talking to my future self again.
+
+```
+python3 -m unittest discover -v
 ```
 
 ### make it yours
