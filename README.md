@@ -20,6 +20,7 @@ nightowlcli/
 ├── README.md           # what it is, include lots of examples, fewer words
 ├── install.bat         # lazy script to pip3 install (because Windows)
 ├── install.sh          # lazy script to pip3 install (because Linux/Mac)
+├── LICENSE             # license your stuff
 ├── nightowlcli         # the guts
   ├── __init__.py       # empty, tells Python the folder is a module
   ├── __main__.py       # entry point, do arg parsing here
@@ -37,6 +38,30 @@ I write a lot of these and invariably forget some detail or best practice that I
 The more I code the more I become a fan of opinioned languages, frameworks and software free of all the wishy washy "you can put it here, or here, or here" which is all fine and dandy for the long time disciples but when just starting out nothings more frustrating than multiple options with no direction.
 
 ## how?
+
+To prove it works, clone the repro, cd into the root folder and depending on your OS run:
+
+Linux/Mac
+
+```
+$ sh install.sh
+```
+
+or 
+
+Windows 
+
+```
+> install # (it's a batch file)
+```
+
+Then
+
+```
+nightowlcli -h
+```
+
+### make it yours
 
 Clone and rename the root folder (nightowlcli) and the code module subfolder (also nightowlcli) as you desire. Toss funky.py and test_funky.py, those are examples and your code is better.
 
