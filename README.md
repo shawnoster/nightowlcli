@@ -36,5 +36,19 @@ I write a lot of these and invariably forget some detail or best practice that I
 
 The more I code the more I become a fan of opinioned languages, frameworks and software free of all the wishy washy "you can put it here, or here, or here" which is all fine and dandy for the long time disciples but when just starting out nothings more frustrating than multiple options with no direction.
 
+## how?
+
+Clone and rename the root folder (nightowlcli) and the code module subfolder (also nightowlcli) as you desire. Toss funky.py and test_funky.py, those are examples and your code is better.
+
+Nothing about this structure is sacred but it is fairly common and it hasn't failed me yet.
+
+### don't forget to...
+
+- update `setup.py` with your information, not mine, unless you're me
+- replace the LICENCE file and test in setup.py to match whatever license you're using. I use MIT because it's simple
+- Delete everything in this `README.md`, insert your magic. I strongly suggest you at least include:
+  - How to install it, assuming the barest knowledge of Python
+  - Lots of examples and for all flags/options, at least 2-3 examples ranging from basic to kung fu master. No one reads docs, you hate writing it and no one really likes to wade through tests to see example usage.
+
 [easy-way-to-do-cli]: https://medium.com/@trstringer/the-easy-and-nice-way-to-do-cli-apps-in-python-5d9964dc950d
 [unit-testing]:https://www.patricksoftwareblog.com/python-unit-testing-structuring-your-project/
