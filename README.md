@@ -1,6 +1,11 @@
 # nightowlcli
 
-Night Owl CLI - a stub folder structure for Python 3 CLIs
+```
+  ___    
+ (o,o)   Night Owl CLI
+ {`"'}   A stub folder structure for Python 3 CLIs
+ -"-"-
+```
 
 ## what?
 
@@ -37,6 +42,13 @@ nightowlcli/
 └── setup.py            # needed to install the cli
 ```
 
+### method amoung the madness
+
+Given this is pretty 101 stuff I'm going to assume at least some lost souls might not have their console skills turned up to 11 yet. Or you simply can't make sense of my idosyncratic chicken scratch so here are some over-explained conventions:
+
+- On Windows replace all the commands `python3` with `python`
+- All pound symbols (#) are comments, don't type them!
+
 ## how?
 
 To prove it works, clone the repro, cd into the root folder and depending on your OS run:
@@ -47,9 +59,9 @@ Linux/Mac
 $ sh install.sh
 ```
 
-or 
+or
 
-Windows 
+Windows
 
 ```
 > install # (it's a batch file)
@@ -65,6 +77,12 @@ Check that the test framework is working correctly before you go mucking it up a
 
 ```
 python3 -m unittest discover -v
+```
+
+When you're done futzzing around with your code you should _actually_ install it via pip3.
+
+```
+pip3 install nightowlcli --user
 ```
 
 ### make it yours
