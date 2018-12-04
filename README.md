@@ -13,9 +13,9 @@ This is a bare-bones CLI skeleton inspired by (totally ripped off from) a post t
 
 ## why?
 
-I write a lot of these and invariably forget some detail or best practice that I swore I'd totally always remember that I then promptly forgot. My favorite form of procrastination is two hour squirrel adventures searching for the "right way" to do things so for my future self... "ha, get back to work arsehole, we've already been down this rabbit hole."
+I write a lot of these, and invariably forget some detail or best practice that I swore I'd totally always remember that I then promptly forget. My favorite form of procrastination is two hour squirrel adventures searching for the "right way" to do things so to my future self... _"get back to work arsehole, we've already been down this rabbit hole."_
 
-The more I code the more I become a fan of opinioned languages, frameworks and software free of all the wishy washy "you can put it here, or here, or here" which is all fine and dandy for the long time disciples but when just starting out nothings more frustrating than multiple options with no direction.
+The more I code the more I become a fan of opinionated languages, frameworks and software free of all the wishy washy "you can put it here, or here, or here" which is all fine and dandy for the long time disciples but when just starting out nothing's more frustrating than multiple options with no direction.
 
 ### in the box
 
