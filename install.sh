@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Quick dev install using uv.
-# Run this from the project root: sh install.sh
+# Run this from the project root: bash install.sh
 set -euo pipefail
 
 if ! command -v uv &>/dev/null; then
