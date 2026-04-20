@@ -62,7 +62,7 @@ uv sync --dev
 
 # run the CLI
 uv run nightowlcli
-uv run nightowlcli "disco inferno"
+uv run nightowlcli funky "disco inferno"
 uv run nightowlcli --help
 ```
 
