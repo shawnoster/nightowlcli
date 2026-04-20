@@ -3,7 +3,7 @@
 ```
   ___    
  (o,o)   Night Owl CLI
- {`"'}   A modern Python 3.11+ CLI skeleton
+ {`"'}   A modern Python 3.13+ CLI skeleton
  -"-"-
 ```
 
@@ -15,7 +15,7 @@ package management, `Typer` for the CLI, `ruff` for linting/formatting, and
 
 ## in the box
 
-- **Python 3.11+**
+- **Python 3.13+**
 - **[uv](https://docs.astral.sh/uv/)** – fast package manager and project tool
 - **[Typer](https://typer.tiangolo.com/)** – CLI framework built on Click, driven by type hints
 - **[ruff](https://docs.astral.sh/ruff/)** – linter + formatter (replaces flake8, black, isort)
@@ -28,7 +28,7 @@ package management, `Typer` for the CLI, `ruff` for linting/formatting, and
 nightowlcli/
 ├── README.md
 ├── pyproject.toml          # project metadata, deps, tool config
-├── .python-version         # pins Python 3.11 for uv
+├── .python-version         # pins Python 3.13 for uv
 ├── LICENSE
 ├── nightowlcli/            # the package
 │   ├── __init__.py
@@ -93,4 +93,4 @@ uv run ruff check --fix . # auto-fix lint issues
 - Replace `LICENSE` with your preferred license and update `pyproject.toml` to match.
 - Add your real dependencies under `[project] dependencies` in `pyproject.toml`.
 - Run `uv lock` after changing dependencies to update `uv.lock`.
-- Pin the right Python version in `.python-version` if 3.11 isn't what you need.
+- Pin the right Python version in `.python-version` if 3.13 isn't what you need.
