@@ -1,9 +1,17 @@
-"""
-Errors for the library.
+"""Custom exceptions for Night Owl CLI.
 
-All exceptions defined by the library should be defined in this file.
+All exceptions raised by this package are defined here so callers can
+import a single module to handle errors cleanly.
 """
 
-class Error(Exception):
-    """Base error for this module."""
-    pass
+
+class NightOwlError(Exception):
+    """Base exception for all Night Owl CLI errors."""
+
+
+class ConfigError(NightOwlError):
+    """Raised when a configuration value is missing or invalid."""
+
+
+class CommandError(NightOwlError):
+    """Raised when a CLI command fails due to bad input or state."""

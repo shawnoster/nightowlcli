@@ -105,3 +105,16 @@ venv.bak/
 
 # Visual Studio Code
 .vscode/
+
+# uv
+.venv/
+# Note: commit uv.lock for applications (reproducible installs),
+# leave it ignored for libraries.
+
+# ruff
+.ruff_cache/
+
+# pytest / coverage
+.pytest_cache/
+htmlcov/
+.coverage
