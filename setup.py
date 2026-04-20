@@ -1,16 +1,5 @@
-from setuptools import setup
-
-setup(
-    name = 'nightowlcli',
-    version = '0.1.0',
-    description = ('Command-line interface project skeleton using best practices'),
-    author = 'Shawn Oster',
-    author_email = 'shawn.oster@gmail.com',
-    url = 'https://github.com/shawnoster/nightowlcli',
-    license = 'MIT License',
-    packages = ['nightowlcli'],
-    entry_points = {
-        'console_scripts': [
-            'nightowlcli = nightowlcli.__main__:main'
-        ]
-    })
+# This file has been superseded by pyproject.toml (PEP 517/518).
+# It can be safely deleted.
+#
+# The project is now managed with uv + hatchling.
+# See pyproject.toml for all project metadata, dependencies, and tool config.
